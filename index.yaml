@@ -3,7 +3,7 @@ entries:
   invoiceninja:
   - apiVersion: v2
     appVersion: 5.12.27
-    created: "2025-09-18T01:34:40.387131381+02:00"
+    created: "2025-09-18T03:28:28.710892109+02:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -20,10 +20,10 @@ entries:
       version: 0.x.x
     - condition: redis.enabled
       name: redis
-      repository: oci://registry-1.docker.io/cloudpirates
-      version: 0.x.x
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 22.x.x
     description: A Helm chart to install Invoice Ninja
-    digest: ceb30686dd529e051357d4a736091c14804150c0f918ea79013d02117e8f44e2
+    digest: 7c86b1138f8070344c7a514b4ccd1bad82329613a5e24aa7e73f6756f5a9f0ec
     home: https://invoiceninja.github.io/dockerfiles
     keywords:
     - invoiceninja
@@ -1055,4 +1055,4 @@ entries:
     urls:
     - https://github.com/invoiceninja/dockerfiles/releases/download/invoiceninja-0.1.0/invoiceninja-0.1.0.tgz
     version: 0.1.0
-generated: "2025-09-18T01:34:40.381818375+02:00"
+generated: "2025-09-18T03:28:28.700653909+02:00"
